@@ -1,4 +1,6 @@
-# React + TypeScript + Vite
+# Tiny chat feature
+
+Implemented using Vite / React / Typescript / Zustand
 
 ## Running this repo
 
