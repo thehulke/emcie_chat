@@ -1,13 +1,5 @@
 import { create } from 'zustand';
-import { ChatMessage } from './types';
-import { ApiStatus } from '../../entities/ApiStatus';
-
-interface ChatState {
-  id: string;
-  messages: ChatMessage[];
-  callStatus: ApiStatus;
-  textInputValue: string;
-}
+import { ChatMessage, ChatState } from './types';
 
 interface ChatStore extends ChatState {
   sendMessage: (content: string) => void;
